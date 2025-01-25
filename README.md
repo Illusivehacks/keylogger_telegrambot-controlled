@@ -54,6 +54,7 @@ bash
 
 🖥️ Usage
 1. Run the script:
+   ``git clone ``
    ``python illusivekeylogger.py``
 
 2. The keylogger will:
@@ -63,4 +64,21 @@ bash
    Notify upon system reboots or shutdowns.
 
 3. To stop the keylogger, press the ESC key.
+
+🔒 Security Features
+   Encryption: Ensures that sensitive bot credentials are never stored in plaintext.
+   Restricted Communication: Transmits data only to the designated Telegram chat
+
+📷 Screenshots
+
+
+
+Telegram Bot Updates
+
+
+⚠️ Disclaimer
+This script is intended for educational purposes only. Unauthorized use of keyloggers or monitoring tools is illegal and unethical. Always obtain proper consent before using this software.
+
+📞 Contact
+For inquiries or issues, feel free to reach out at: williamkitungo@gmail.com
 
