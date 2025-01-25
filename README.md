@@ -73,7 +73,10 @@ bash
 
 📷 Screenshots
 
+![Screenshot Placeholder](GUI.png)
 
+
+![Screenshot Placeholder](output.png)
 
 Telegram Bot Updates
 
