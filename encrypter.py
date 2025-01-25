@@ -5,8 +5,8 @@ encryption_key = Fernet.generate_key()
 cipher_suite = Fernet(encryption_key)
 
 # Replace with your actual bot token and chat ID
-bot_token = "7636564556:AAHkefNr-e88-ebt3-fN2LJwNzS2aonKVFc"
-chat_id = "6215932196"
+bot_token = "paste token here"
+chat_id = "paste id here"
 
 # Encrypt the bot token and chat ID
 encrypted_bot_token = cipher_suite.encrypt(bot_token.encode())
