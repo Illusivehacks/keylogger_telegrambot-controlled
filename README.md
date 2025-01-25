@@ -87,3 +87,23 @@ This script is intended for educational purposes only. Unauthorized use of keylo
 📞 Contact
 For inquiries or issues, feel free to reach out at: williamkitungo@gmail.com
 
+
+
+# **PLEASE NOTE**
+
+Now after verifying that it working you can navigate to the terminal and convert illusivekeylogger.py to an executable using the command below:
+    step 1. ````pip install pyinstaller````
+    step 2. Create the Executable
+            Use the following command to convert your Python script (script.py) into an executable with no console and a custom icon (pirate) :
+
+            bash
+            pyinstaller --noconsole --onefile --icon=path_to_icon.ico script.py
+    
+    Explanation of the flags:
+
+       --noconsole: Hides the console window when running the executable.
+
+       --onefile: Packages everything into a single .exe file.
+
+       --icon=path_to_icon.ico: Specifies the custom icon for the executable.
+
