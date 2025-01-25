@@ -96,8 +96,8 @@ Now after verifying that it working you can navigate to the terminal and convert
     step 2. Create the Executable
             Use the following command to convert your Python script (script.py) into an executable with no console and a custom icon (pirate) :
 
-            bash
-            pyinstaller --noconsole --onefile --icon=path_to_icon.ico script.py
+   bash
+   ``pyinstaller --noconsole --onefile --icon=path_to_icon.ico script.py``
     
     Explanation of the flags:
 
