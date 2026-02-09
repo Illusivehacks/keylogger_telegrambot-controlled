@@ -85,7 +85,7 @@ Telegram Bot Updates
 This script is intended for educational purposes only. Unauthorized use of keyloggers or monitoring tools is illegal and unethical. Always obtain proper consent before using this software.
 
 📞 Contact
-For inquiries or issues, feel free to reach out at: williamkitungo@gmail.com
+For inquiries or issues, feel free to reach out at: @Illusivehacks
 
 
 
